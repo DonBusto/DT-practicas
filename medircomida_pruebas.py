@@ -42,7 +42,7 @@ while True:
 		
         floatpeso = float(max(set(listapesos), key=listapesos.count))
         print("El peso de la comida es de %.3f kg" % floatpeso)
-        fichero = open("~/kitchen_app/pesos.log", "a")
+        fichero = open("/home/pi/kitchen_app/pesos.log", "a")
         fichero.write("Peso: %.3f medido el " % floatpeso)
         fichero.write("%s" % (datetime.datetime.now()))
         fichero.write("\n")
@@ -53,12 +53,12 @@ while True:
         #cv2.imwrite(("C:/Users/Usuario/Desktop/pyCharm/%s.jpg" % (datetime.datetime.now())),frame)
         hora = time.time()
         try:
-            cv2.imwrite(("~/kitchen_app/fotos/%s.jpg" % (hora)), frame)
+            cv2.imwrite(("/home/pi/kitchen_app/fotos/%s.jpg" % (hora)), frame)
         except:
             print("Se ha creado la imagen igualmente")
         #cv2.imshow("epppp.jpg", frame)
        # cv2.imwrite("C:/Users/Usuario/Desktop/pyCharm/pycharm.jpg", frame)
-        fichero = open("~/kitchen_app/pesos.log", "a")
+        fichero = open("/home/pi/kitchen_app/pesos.log", "a")
         fichero.write("Ruta absoluta de la imagen: %s\n\n" % (os.path.abspath(("%s.jpg" % (hora)))))
         fichero.close()
 
