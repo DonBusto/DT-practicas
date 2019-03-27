@@ -4,7 +4,7 @@ import sys
 
 #filename = sys.argv[1]
 filename_local = "c:/users/usuario/downloads/sortingameusermetrics.json"
-with open(filename, "r") as myfile: #CAMBIAR OPCIONALMENTE filename POR filename_local Y ASIGNAR EL NOMBRE DEL ARCHIVO LOCAL A ESA VARIABLE
+with open(filename_local, "r") as myfile: #CAMBIAR OPCIONALMENTE filename POR filename_local Y ASIGNAR EL NOMBRE DEL ARCHIVO LOCAL A ESA VARIABLE
     data = myfile.read().replace('\n','')
     metrics_parsed = json.loads(data)
 
@@ -34,7 +34,7 @@ for metric in metrics_data_id:
     if count==0:
         header = metric.keys()
         # print(header)
-        array = ['id','type','age','countryISO','allTimeLevelsPlayed','currentMaxLevel','currentTotalPoints','gender','latestLevelPlayed','municipalityName','latestLevelResult']
+        array = ['id','username','type','age','countryISO','allTimeLevelsPlayed','currentMaxLevel','currentTotalPoints','gender','latestLevelPlayed','municipalityName','latestLevelResult', 'levelStatistics']
         csvwriter.writerow(array)
         count += 1
     else:
