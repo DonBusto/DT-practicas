@@ -115,7 +115,11 @@ print(array_attr)
 for line in csv_file_metrics:
     csv_file_questionnaire = open("questionnaire.csv", "r", newline='')
     str_linea_fichero = ""
-    id_analizar = line.split(";")[0]
+    metrics_linea_array = line.split(";")
+    id_analizar = metrics_linea_array[0]
+    metrics_linea_array[metrics_linea_array.__len__() - 1] = metrics_linea_array[metrics_linea_array.__len__() - 1].rstrip('\r\n')
+    print(metrics_linea_array)
+
     if line_mixed == 0:
         for attr in array_attr:
             csv_file_mixed.write(attr)
@@ -124,19 +128,28 @@ for line in csv_file_metrics:
             if attr_quest not in array_attr:
                 csv_file_mixed.write(attr_quest)
                 csv_file_mixed.write(";")
-        csv_file_mixed.write("\n")
+       # csv_file_mixed.write("\n") salto de linea para atributos
         line_mixed += 1
     else:
-        str_linea_fichero += line;
+        str_linea_fichero += line
     for line_quest in csv_file_questionnaire:
         lista_atributos_quest = line_quest.split(";")
-        print(lista_atributos_quest)
-        if lista_atributos_quest[0] == id_analizar:
-            print(lista_atributos_quest)
-            str_linea_fichero += line_quest
-    str_linea_fichero = str_linea_fichero.rstrip("\n")
+        lista_atributos_quest[lista_atributos_quest.__len__()-1] = lista_atributos_quest[lista_atributos_quest.__len__()-1].rstrip('\r\n')
+        if lista_atributos_quest[0] == id_analizar and lista_atributos_quest[0] != array_attr[0]:
+            line_quest_array = line_quest.split(";")
+            str_vacio_quest = ""
+            for n in range(2, line_quest_array.__len__()-2):
+                str_vacio_quest += line_quest_array[n] + ";"
+            str_vacio_quest += line_quest_array[line_quest_array.__len__()-1]
 
-    csv_file_mixed.write(str_linea_fichero)
+            str_linea_fichero += str_vacio_quest
+    str_linea_fichero_array = str_linea_fichero.split(";")
+
+    str_linea_fichero = str_linea_fichero.rstrip("\n")
+    if str_linea_fichero.endswith("\n"):
+        csv_file_mixed.write(str_linea_fichero + "\n")
+    else:
+        csv_file_mixed.write(str_linea_fichero)
     csv_file_questionnaire.close()
 
 csv_file_metrics.close()
