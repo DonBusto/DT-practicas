@@ -1,0 +1,626 @@
+{
+    "21": {
+        "name": "FC11_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.179.999.924"
+        }
+    },
+    "22": {
+        "name": "FC11_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "404": {
+        "name": "FC30_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.170.000.076"
+        }
+    },
+    "405": {
+        "name": "FC30_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "406": {
+        "name": "FC31_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2018-12-28T00:45:00.000000Z": "2.070.000.076"
+        }
+    },
+    "407": {
+        "name": "FC31_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2018-12-28T00:45:00.000000Z": 16.0
+        }
+    },
+    "408": {
+        "name": "FC1_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 20.0
+        }
+    },
+    "409": {
+        "name": "FC1_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "410": {
+        "name": "FC1_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 30.0
+        }
+    },
+    "411": {
+        "name": "FC3_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.129.999.924"
+        }
+    },
+    "412": {
+        "name": "FC3_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "413": {
+        "name": "FC3_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "414": {
+        "name": "FC4_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.089.999.962"
+        }
+    },
+    "415": {
+        "name": "FC4_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "416": {
+        "name": "FC4_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "417": {
+        "name": "FC7_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.120.000.076"
+        }
+    },
+    "418": {
+        "name": "FC7_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "419": {
+        "name": "FC7_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "420": {
+        "name": "FC8_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.220.000.076"
+        }
+    },
+    "421": {
+        "name": "FC8_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "422": {
+        "name": "FC8_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "423": {
+        "name": "FC9_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.239.999.962"
+        }
+    },
+    "424": {
+        "name": "FC9_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "425": {
+        "name": "FC9_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "426": {
+        "name": "FC10_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.170.000.076"
+        }
+    },
+    "427": {
+        "name": "FC10_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "428": {
+        "name": "FC10_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "429": {
+        "name": "FC11_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "430": {
+        "name": "FC12_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-27T20:00:00.000000Z": "2.139.999.962"
+        }
+    },
+    "431": {
+        "name": "FC12_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-27T20:00:00.000000Z": 17.0
+        }
+    },
+    "432": {
+        "name": "FC12_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-27T20:00:00.000000Z": 0.0
+        }
+    },
+    "433": {
+        "name": "FC13_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.060.000.038"
+        }
+    },
+    "434": {
+        "name": "FC13_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "435": {
+        "name": "FC13_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "436": {
+        "name": "FC16_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.089.999.962"
+        }
+    },
+    "437": {
+        "name": "FC16_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "438": {
+        "name": "FC16_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "439": {
+        "name": "FC17_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.110.000.038"
+        }
+    },
+    "440": {
+        "name": "FC17_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "441": {
+        "name": "FC17_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "442": {
+        "name": "FC19_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.120.000.076"
+        }
+    },
+    "443": {
+        "name": "FC19_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "444": {
+        "name": "FC19_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "445": {
+        "name": "FC20_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.129.999.924"
+        }
+    },
+    "446": {
+        "name": "FC20_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "447": {
+        "name": "FC20_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "448": {
+        "name": "FC21_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.110.000.038"
+        }
+    },
+    "449": {
+        "name": "FC21_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "450": {
+        "name": "FC21_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "451": {
+        "name": "FC22_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.029.999.924"
+        }
+    },
+    "452": {
+        "name": "FC22_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "453": {
+        "name": "FC22_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "454": {
+        "name": "FC23_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.060.000.038"
+        }
+    },
+    "455": {
+        "name": "FC23_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "456": {
+        "name": "FC23_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "457": {
+        "name": "FC25_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.070.000.076"
+        }
+    },
+    "458": {
+        "name": "FC25_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "459": {
+        "name": "FC25_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "460": {
+        "name": "FC26_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.039.999.962"
+        }
+    },
+    "461": {
+        "name": "FC26_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "462": {
+        "name": "FC26_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "463": {
+        "name": "FC28_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 20.5
+        }
+    },
+    "464": {
+        "name": "FC28_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "465": {
+        "name": "FC28_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "466": {
+        "name": "FC29_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.020.000.076"
+        }
+    },
+    "467": {
+        "name": "FC29_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "468": {
+        "name": "FC29_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "469": {
+        "name": "FC30_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "470": {
+        "name": "FC32_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 21.0
+        }
+    },
+    "471": {
+        "name": "FC32_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "472": {
+        "name": "FC32_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "473": {
+        "name": "FC34_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.189.999.962"
+        }
+    },
+    "474": {
+        "name": "FC34_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "475": {
+        "name": "FC34_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "476": {
+        "name": "FC37_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.070.000.076"
+        }
+    },
+    "477": {
+        "name": "FC37_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "478": {
+        "name": "FC37_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "479": {
+        "name": "FC38_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 22.0
+        }
+    },
+    "480": {
+        "name": "FC38_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "481": {
+        "name": "FC38_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "482": {
+        "name": "FC39_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.260.000.038"
+        }
+    },
+    "483": {
+        "name": "FC39_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "484": {
+        "name": "FC39_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "485": {
+        "name": "FC40_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.239.999.962"
+        }
+    },
+    "486": {
+        "name": "FC40_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "487": {
+        "name": "FC40_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "488": {
+        "name": "FC41_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.179.999.924"
+        }
+    },
+    "489": {
+        "name": "FC41_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "490": {
+        "name": "FC41_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "491": {
+        "name": "FC44_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.239.999.962"
+        }
+    },
+    "492": {
+        "name": "FC44_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "493": {
+        "name": "FC44_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "494": {
+        "name": "FC45_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": "2.170.000.076"
+        }
+    },
+    "495": {
+        "name": "FC45_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "496": {
+        "name": "FC45_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "497": {
+        "name": "FC46_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 21.5
+        }
+    },
+    "498": {
+        "name": "FC46_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "499": {
+        "name": "FC46_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    },
+    "500": {
+        "name": "FC47_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-28T20:00:00.000000Z": 22.5
+        }
+    },
+    "501": {
+        "name": "FC47_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-28T20:00:00.000000Z": 17.0
+        }
+    },
+    "502": {
+        "name": "FC47_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-28T20:00:00.000000Z": 0.0
+        }
+    },
+    "503": {
+        "name": "FC43_RCP200F.RoomUnit1_DisplayValue",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 21.0
+        }
+    },
+    "504": {
+        "name": "FC43_RCP200F.RoomControlIngetek1_Setp",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 17.0
+        }
+    },
+    "505": {
+        "name": "FC43_RCP200F.FanSpeed",
+        "values": {
+            "2019-01-29T00:45:00.000000Z": 0.0
+        }
+    }
+}
