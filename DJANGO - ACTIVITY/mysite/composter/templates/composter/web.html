@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="code.js"></script>
+</head>
+<body>
+<div class = "row">
+<div class="col s12 m12 l5">
+  <label for="tfUsuario">Usuario</label>
+  <input id="tfUsuario" type="text" name="usuario" value="">
+ </div>
+ <div class="col s12 m9 l5">
+  <label for="tfPass">Contraseña</label>
+  <input id="tfPass" type="password" name="pass" value="">
+  </div>
+  <div class="col s12 m3 l2">
+  <button id="boton_ok" class="waves-effect waves-light btn">OK</button>
+  </div>
+ </div>
+ <div id="parte1" class="hidden">
+ <div class="row">
+ <div class="col l6 s12 m6 l6">
+ <select id="select1" class="browser-default"> <--Este select1 va a estar vacio al principio pero cuando llamemos a la función se empezará a llenar!-->	
+ </select>
+ </div>
+ <div class="col l3 s6 m3 l3">
+ <input type="number" id="inputNum" value="" placeholder="Nº de composteras">
+ </div>
+ <div class="col l3 s6 m3 l3">
+ <button id="vertir" class="waves-effect waves-light btn">Seleccionar</button> 
+ <button id="clear" class="waves-effect waves-light btn">Eliminar todo</button> 
+ </div>
+ <div class="col 12 s12 m12 l12">
+ <ul class="collection hidden" id="compostajes"> </ul>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ <div id="includedContent" class="hidden">
+ </div>
+ <div class="col 12 s12 m12 l12">
+<ul class="collection hidden" id="compostajes"> </ul>
+</div>
+
+ 
+ 
+</body>
+</html>
