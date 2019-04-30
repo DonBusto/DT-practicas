@@ -1,0 +1,162 @@
+{% load static %}
+
+<head>
+    <h1>Activity</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{% static 'papaparse.js' %}"></script>
+    <link rel="stylesheet" href="{% static "css/global.css" %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    {#    <style>#}
+    {#        h1, p {#}
+    {#            font-family: arial, sans-serif;#}
+    {#        }#}
+    {##}
+    {#        table {#}
+    {#            font-family: arial, sans-serif;#}
+    {#            border-collapse: collapse;#}
+    {#            width: 100%;#}
+    {#        }#}
+    {##}
+    {#        td, th {#}
+    {#            border: 1px solid #dddddd;#}
+    {#            text-align: left;#}
+    {#            padding: 8px;#}
+    {#        }#}
+    {##}
+    {#        tr:nth-child(even) {#}
+    {#            background-color: #dddddd;#}
+    {#        }#}
+    {#    </style>#}
+
+    <style>
+        body {
+            color: #4f4f4f;
+            font-family: 'Roboto', Helvetica, sans-serif;
+            height: 100vh;
+
+        }
+
+        a {
+            color: #6f42c1;
+        !important;
+        }
+
+        header {
+            z-index: 1030;
+            margin: 0;
+        }
+
+        aside {
+            background: #f8f9fa;
+            z-index: 1020 !important;
+            width: 29vh;
+            /*top: 86px;*/
+            top: 0;
+            bottom: 0;
+            position: absolute !important;
+        }
+
+        overlay {
+            display: block;
+            background: #2c2c2c55;
+            top: 86px;
+            bottom: 0;
+            position: absolute !important;
+            left: 0;
+            right: 0;
+            z-index: 1010;
+
+        }
+
+        footer {
+            margin: 0;
+        }
+
+        main {
+            width: 100%;
+            height: calc(100% - 86px);
+            overflow: hidden;
+        }
+
+        article {
+            overflow: auto;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        h1, h2, h3, h4, h6, h7, h8 {
+            color: darkslategrey;
+            font-family: 'Roboto Condensed', Helvetica, sans-serif;
+        }
+
+        aside hr {
+            border-color: #908d8d #fb3b0100 #c0c2c3 #04040400;
+            border-width: 1px;
+            border-style: solid;
+            width: 90%;
+            height: 1px;
+        }
+
+    </style>
+
+</head>
+{#<body class="grey lighten-5">#}
+<body>
+
+<table>
+    <tr>
+        <th>CNAE</th>
+        <th>Peso</th>
+    </tr>
+
+    {% for measure in object_list %}
+        <tr>
+            <td>{{ measure.cnae }}</td>
+            <td>{{ measure.peso }}</td>
+
+        </tr>
+    {% empty %}
+        <p>No articles yet.</p>
+    {% endfor %}
+
+
+</table>
+
+<h5><a href="{% url 'treatment_plants:greentech_create' %}"> <input type="submit" value="Add measures"></a>
+
+    <a href="upload"><input type="file" id="csv-file" name="files"/></a>
+    <script>
+
+
+        function handleFileSelect(evt) {
+            var file = evt.target.files[0];
+
+            Papa.parse(file, {
+                header: true,
+                dynamicTyping: true,
+                complete: function (results) {
+                    console.log(results.data.length)
+                    console.log(results)
+                    console.log(JSON.stringify(results))
+                    $.ajax({
+                            method: 'post',
+                            url: "{% url 'treatment_plants:greentech_upload' %}",
+                            data: {
+                                csrfmiddlewaretoken: '{{ csrf_token }}',
+                                valores: JSON.stringify(results.data)
+                            },
+                        },
+                    )
+                }
+            });
+
+        }
+
+        $(document).ready(function () {
+            $("#csv-file").change(handleFileSelect);
+        });
+    </script>
+</h5>
+</body>
