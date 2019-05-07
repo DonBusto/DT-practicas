@@ -1,0 +1,179 @@
+{
+	"id": "223451",
+	"type": "Route",
+	"arrivalPoint": {
+		"type": "StructuredValue",
+		"value": {
+				"type": "Point",
+				"coordinates": [
+					-9.33871,
+					38.7353
+				]			
+		},
+		"metadata": {}
+	},
+	"departurePoint": {
+		"type": "StructuredValue",
+		"value": {
+				"type": "Point",
+				"coordinates": [
+					-9.38682,
+					38.7376
+				]			
+		},
+		"metadata": {}
+	},
+	"description": {
+		"type": "String",
+		"value": "",
+		"metadata": {}
+	},
+	"longName": {
+		"type": "String",
+		"value": "",
+		"metadata": {}
+	},
+	"realArrivalTimestamp": {
+		"type": "String",
+		"value": "2018-12-10T21:57:42+00:00",
+		"metadata": {}
+	},
+	"realDepartureTimestamp": {
+		"type": "String",
+		"value": "2018-12-10T20:55:56+00:00",
+		"metadata": {}
+	},
+	"realPath": {
+		"type": "List",
+		"value": [
+      {
+				"timestamp": "2018-12-10T20:55:5600:00",
+				"latitude": 38.7376,
+				"longitude": -9.38682
+			},
+			{
+				"timestamp": "2018-12-10T21:43:3400:00",
+				"latitude": 38.7235,
+				"longitude": -9.33601
+			},
+			{
+				"timestamp": "2018-12-10T21:57:1200:00",
+				"latitude": 38.7353,
+				"longitude": -9.3387
+			},
+			{
+				"timestamp": "2018-12-10T21:57:4200:00",
+				"latitude": 38.7353,
+				"longitude": -9.33871
+			}
+		],
+		"metadata": {}
+	},
+	"realStops": {
+		"type": "List",
+		"value": [
+     {
+				"refStop": "DepositPoint:12233",
+				"stopPoint": {
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-9.34098,
+							38.703
+						]
+					}
+				},
+				"arrivalTimestamp": "2018-12-10T21:21:5100:00",
+				"departureTimestamp": "2018-12-10T21:21:5100:00"
+			},
+			{
+				"refStop": "DepositPoint:10509",
+				"stopPoint": {
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-9.33992,
+							38.7021
+						]
+					}
+				},
+				"arrivalTimestamp": "2018-12-10T21:24:2800:00",
+				"departureTimestamp": "2018-12-10T21:21:5100:00"
+			}
+		],
+		"metadata": {}
+	},
+	"refAssignedVehicle": {
+		"type": "String",
+		"value": "Vehicle:65",
+		"metadata": {}
+	},
+	"refScheduledVehicle": {
+		"type": "String",
+		"value": "Vehicle:65",
+		"metadata": {}
+	},
+	"scheduledArrivalTimestamp": {
+		"type": "String",
+		"value": "",
+		"metadata": {}
+	},
+	"scheduledDepartureTimestamp": {
+		"type": "String",
+		"value": "",
+		"metadata": {}
+	},
+	"scheduledPath": {
+		"type": "List",
+		"value": [],
+		"metadata": {}
+	},
+	"scheduledStops": {
+		"type": "List",
+		"value": [
+     {
+				"refStop": "DepositPoint:10500",
+				"stopPoint": {
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-9.34105,
+							38.7031
+						]
+					}
+				},
+				"arrivalTimestamp": "",
+				"departureTimestamp": ""
+			},
+			{
+				"refStop": "DepositPoint:10503",
+				"stopPoint": {
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-9.3407,
+							38.7027
+						]
+					}
+				},
+				"arrivalTimestamp": "",
+				"departureTimestamp": ""
+			}
+		],
+		"metadata": {}
+	},
+	"shortName": {
+		"type": "String",
+		"value": "",
+		"metadata": {}
+	},
+	"vehicleType": {
+		"type": "String",
+		"value": "",
+		"metadata": {}
+	}
+}
