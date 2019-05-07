@@ -1,0 +1,965 @@
+{
+    "id": "1541CLM:27/03/2019",
+    "type": "Route",
+    "arrivalPoint": {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": []
+        }
+    },
+    "departurePoint": {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": []
+        }
+    },
+    "description": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    },
+    "longName": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    },
+    "realArrivalTimestamp": {
+        "type": "String",
+        "value": "2019-03-27T12:36:00+00:00",
+        "metadata": {}
+    },
+    "realDepartureTimestamp": {
+        "type": "String",
+        "value": "2019-03-27T08:15:59+00:00",
+        "metadata": {}
+    },
+    "realPath": {
+        "type": "List",
+        "value": [],
+        "metadata": {}
+    },
+    "realStops": {
+        "type": "List",
+        "value": [
+            {
+                "refStop": "DepositPoint:B54194",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:36:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B54212",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:36:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BAB0D",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:36:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0B682",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:04:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F09437",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:04:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0A625",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:04:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F080F4",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:02:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BBCBC",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T12:00:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EDDE1",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:59:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EF6B3",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:42:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BBDF6",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:42:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EE0E7",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:37:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EC27A",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:33:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EFEF7",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:33:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BA401",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:32:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BC02B",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:32:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EB4B1",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T11:32:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BA3D3",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:43:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMIR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:41:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B54C9D",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:39:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMIR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:38:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EFFC3",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:38:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B54E1D",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:36:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EDC00",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:34:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EC5CA",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:34:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BB92C",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:32:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMIR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:30:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EFAD1",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:27:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B541F9",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:27:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8F0762",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:25:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EE842",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:23:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EC4A8",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:23:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMIR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:21:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8EB5FE",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:21:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B541E8",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:16:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B54FF2",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:00:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B5961C",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:00:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B54233",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T10:00:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B550D3",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:58:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B57A17",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:56:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F08FE4",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:45:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B543BB",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:38:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMUR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:38:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0C170",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:36:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0A762",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:35:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0AD08",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:33:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMUR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:33:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B54203",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:31:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMUR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:29:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0CD2A",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:29:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0A811",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:27:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F07C37",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:27:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B543BE",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:24:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B550DE",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:24:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F07928",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:22:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F08D5C",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:20:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:B59654",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:17:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F09383",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:15:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F08680",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:11:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:ZAMUR",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:09:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F090C2",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:08:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0C9F1",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T09:02:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0C108",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:59:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F094B7",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:57:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0866B",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:57:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F08551",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:55:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F080C7",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:55:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:8BA40E",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:24:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0BD35",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:24:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0CAEC",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:23:00+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F08823",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:21:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F0BE85",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:19:59+00:00",
+                "departureTimestamp": ""
+            },
+            {
+                "refStop": "DepositPoint:F07F78",
+                "stopPoint": {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": []
+                    }
+                },
+                "arrivalTimestamp": "2019-03-27T08:15:59+00:00",
+                "departureTimestamp": ""
+            }
+        ],
+        "metadata": {}
+    },
+    "refAssignedVehicle": {
+        "type": "String",
+        "value": "Vehicle:1541CLM",
+        "metadata": {}
+    },
+    "refScheduledVehicle": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    },
+    "scheduledArrivalTimestamp": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    },
+    "scheduledDepartureTimestamp": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    },
+    "scheduledPath": {
+        "type": "List",
+        "value": [],
+        "metadata": {}
+    },
+    "scheduledStops": {
+        "type": "List",
+        "value": [],
+        "metadata": {}
+    },
+    "shortName": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    },
+    "vehicleType": {
+        "type": "String",
+        "value": "",
+        "metadata": {}
+    }
+}

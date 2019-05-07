@@ -33,7 +33,7 @@ for k in arraykeys_org:
 
     dict_fechaspordia_org[(k[0], k[1])] = arrayfechas
 
-for k in arraykeys_org:
+#for k in arraykeys_org:
     entrada = {}
     entrada['id'] = k[0] + ":" + k[1]
     entrada['type'] = 'Route'
@@ -152,7 +152,7 @@ for k in arraykeys_org:
     with open(organicjson, 'w', encoding="UTF-8") as outfile:
         outfile.write(json.dumps(entrada, sort_keys=False, indent=4, ensure_ascii=False))
 
-# print(dict_fechaspordia_org[('1541CLM', '27/12/2018')])
+print(dict_fechaspordia_org[('1541CLM', '27/12/2018')])
 
 f = open(paper2018, 'rU')
 reader = csv.DictReader(f, delimiter=";")
@@ -181,7 +181,7 @@ for k in arraykeys_paper:
 
     dict_fechaspordia_paper[(k[0], k[1])] = arrayfechas
 
-for k in arraykeys_paper:
+#for k in arraykeys_paper:
     entrada = {}
     entrada['id'] = k[0] + ":" + k[1]
     entrada['type'] = 'Route'
@@ -317,6 +317,7 @@ for row in reader:
     arraydicts_res.append(row)
     array_fechas_res.append(fecha)
 
+
 dict_fechaspordia_res = {}
 for k in arraykeys_res:
     arrayfechas = []
@@ -329,7 +330,7 @@ for k in arraykeys_res:
 
     dict_fechaspordia_res[(k[0], k[1])] = arrayfechas
 
-for k in arraykeys_res:
+#for k in arraykeys_res:
     entrada = {}
     entrada['id'] = k[0] + ":" + k[1]
     entrada['type'] = 'Route'
